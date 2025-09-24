@@ -1,5 +1,7 @@
 # Linked-list-in-cpp
 
+# README
+
 ## Aim
 
 To implement and understand the working of Singly, Doubly, and Circular Linked Lists in C++.
@@ -24,6 +26,25 @@ A **Linked List** is a linear data structure where elements are stored in nodes 
 
 - No random access; traversal is required to access elements.
 - Extra memory needed for storing pointers.
+
+---
+
+### Comparison: Linked List vs Array
+
+| Feature               | Array                         | Linked List                     |
+|-----------------------|-------------------------------|----------------------------------|
+| **Memory Allocation** | Static (fixed size)           | Dynamic (grows as needed)        |
+| **Access Time**       | Constant time (O(1))          | Linear time (O(n))               |
+| **Insertion/Deletion**| Expensive (need shifting)     | Efficient (pointer adjustment)   |
+| **Memory Usage**      | Compact (no pointer overhead) | Extra space for pointers         |
+| **Cache Locality**    | Better (contiguous memory)    | Poor (scattered in memory)       |
+| **Resizing**          | Manual (copy to new array)    | Automatic (no copying needed)    |
+| **Use Case**          | When fast access is needed    | When frequent insert/delete ops  |
+
+**Summary:**  
+Arrays are best when quick access by index is required. Linked lists are preferred when the size of data is unknown or when insertions/deletions are frequent.
+
+---
 
 ## Algorithms
 
@@ -103,4 +124,3 @@ This study and implementation cover the fundamental types of linked lists in C++
 Each linked list type has unique advantages and use-cases. Understanding them deepens knowledge of pointers, dynamic memory, and data structure design critical for advanced programming.
 
 ---
-
